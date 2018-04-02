@@ -54,6 +54,7 @@ $token = Provider::create($config, 'oschina')->getAccessToken();
 namespace YourNamespace;
 
 use TechOne\OAuth2\Client\Providers\AbstractProvider;
+use TechOne\OAuth2\Client\Provider;
 
 class YourOauth2Provider extends AbstractProvider
 {
