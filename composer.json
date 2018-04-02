@@ -1,0 +1,22 @@
+{
+    "name": "techleeone/oauth2-client",
+    "description": "oauth2-client",
+    "keywords": ["oauth2", "OAuth2认证"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TechLee",
+            "email": "techlee@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "danielstjules/stringy": "^3.1",
+        "nategood/httpful": "0.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "TechOne\\OAuth2\\Client\\": "src/"
+        }
+    } 
+}
