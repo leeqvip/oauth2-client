@@ -14,6 +14,8 @@ composer require techleeone/oauth2-client
 // 如果是使用支持composer自动加载的框架（比如thinkphp，laravel），则无需require。
 require_once dirname(__FILE__) . '/vendor/autoload.php';
 
+use TechOne\OAuth2\Client\Provider;
+
 $config = [
     // 应用ID | 公众号的唯一标识appid
     'client_id' => '',
